@@ -1,0 +1,13 @@
+/* bugSolution.css */
+
+/* Fix for calc() issue: remove whitespace around operators */
+div {
+  width: calc(100% - 50px);
+}
+
+/* Fix for Specificity conflict: Use more specific selectors */
+#container .my-class {
+  color: blue; /* More specific rule */
+}
+
+/* Avoid !important unless absolutely necessary */
