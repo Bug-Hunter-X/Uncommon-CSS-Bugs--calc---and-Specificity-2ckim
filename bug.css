@@ -1,0 +1,3 @@
+The CSS property `calc()` is used to perform calculations within CSS.  However, it can sometimes lead to unexpected results due to the order of operations or unexpected whitespace. For example, using `calc(100% - 50px)` might not produce the expected result if there's unexpected whitespace around the `-` operator. 
+
+Another uncommon issue relates to specificity conflicts. When you have multiple CSS rules that apply to the same element, the most specific rule wins.  It can be difficult to track down specificity problems that involve complex selectors or the use of `!important`.
